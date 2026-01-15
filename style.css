@@ -1,0 +1,52 @@
+body {
+    background: #0f2027;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+select, button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e04343;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    margin: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
